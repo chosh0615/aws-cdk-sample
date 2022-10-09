@@ -13,7 +13,7 @@ export class AwsCdkSampleStack extends cdk.Stack {
 
     // example resource
     const queue = new sqs.Queue(this, 'AwsCdkSampleQueue', {
-      queueName: `test-queue-${process.env.CODEBUILD_SOURCE_VERSION}`,
+      queueName: `test-queue-2-${process.env.CODEBUILD_SOURCE_VERSION}`,
       visibilityTimeout: cdk.Duration.seconds(300)
     });
 
