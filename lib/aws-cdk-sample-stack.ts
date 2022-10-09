@@ -15,6 +15,6 @@ export class AwsCdkSampleStack extends cdk.Stack {
       visibilityTimeout: cdk.Duration.seconds(300)
     });
 
-    new some_service.SomeService(this, 'SomeService');
+    // new some_service.SomeService(this, 'SomeService');
   }
 }
